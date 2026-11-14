@@ -51,6 +51,90 @@ using Terraform, Kubernetes, Flux, and related tools. Each numbered folder repre
 
 ---
 
+
+## Prerequisites
+
+Before starting the hands-on exercises, make sure your
+development environment is configured with the appropriate tools.
+
+| Tool | Purpose |
+|------|---------|
+| Git | Clone the repository and manage source code |
+| Terraform | Provision and manage infrastructure as code |
+| AWS CLI | Configure AWS credentials and access AWS services |
+| Docker | Build and run containerized applications |
+| kubectl | Manage Kubernetes clusters and workloads |
+| Helm | Package and deploy Kubernetes applications |
+| Flux CLI | Manage GitOps-based continuous deployment |
+| k9s (optional) | Explore and monitor Kubernetes resources |
+
+> **Note:** Not every chapter requires every tool.
+> Check the individual chapter README for specific requirements.
+
+---
+
+## Quick Start
+
+### 1. Clone the Repository
+
+```bash
+git clone https://github.com/Tendor292527/devops-practice-lab.git
+cd devops-practice-lab
+```
+
+### 2. Explore the Chapters
+
+```bash
+ls
+cd 1-terraform
+```
+
+Read the chapter-specific README before running any commands.
+
+### 3. Verify Your Development Tools
+
+```bash
+git --version
+terraform version
+aws --version
+docker --version
+kubectl version --client
+helm version
+flux --version
+```
+
+Install any missing tools required by the chapter you plan to complete.
+
+### 4. Configure AWS Access (When Required)
+
+```bash
+aws configure
+aws sts get-caller-identity
+```
+
+Use credentials with permissions appropriate to the exercise.
+
+Some cloud resources may incur charges, so review Terraform
+plans and clean up resources after completing exercises.
+
+---
+
+## Contributing
+
+Contributions, documentation improvements, and bug fixes
+are welcome.
+
+1. Create a new branch from the default branch.
+2. Make a focused improvement to the relevant chapter or documentation.
+3. Test or validate your changes when applicable.
+4. Commit your changes with a descriptive message.
+5. Open a pull request explaining what changed and why.
+
+For documentation contributions, verify that commands,
+file paths, and Markdown links are accurate.
+
+---
+  
 ## Resources
 
 - `cr.yaml` contains repository metadata used by automated tooling.
