@@ -134,6 +134,17 @@ For documentation contributions, verify that commands,
 file paths, and Markdown links are accurate.
 
 ---
+
+
+## Chapter Navigation
+
+- [Terraform](./1-terraform/)
+- [Kubernetes Cluster](./2-kubernetes-cluster/)
+- [Continuous Deployment](./3-continuous-deployment/)
+- [Telemetry](./4-telemetry/)
+- [Secrets](./5-secrets/)
+- [Continuous Integration](./6-continuous-integration/)
+- [Service Mesh](./7-service-mesh/)
   
 ## Resources
 
